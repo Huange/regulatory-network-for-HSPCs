@@ -1,8 +1,12 @@
 # regulatory-network-for-HSPCs
 The Matlab codes include three modules: 
+
 1.	In silico model
+
 2.	Simplified model
+
 3.	Exponents changed model
+
 As explained in Supplementary text, exponents changed model refers to the setting where the exponents in equations change less than linearly along with the increase in the number of motifs. 
 
 To run simulations using in silico, or simplified, or exponents changed model:
