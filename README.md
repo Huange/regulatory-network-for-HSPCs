@@ -16,11 +16,9 @@ First, change Current Folder of MATLAB to ‘in silico model’, or ’Simplifie
 Second, type in Command Window:
 
 run single_run
-
 % simulate the expression of a single wild-type cell over 50 discrete time points. Output is a 50x9 matrix named as ‘output’.
 
 run multiple_run
-
 % simulate the overall distributions of all nine TFs expression as might be seen in a cell population by implementing 1000 independent simulations. Each simulation has 50 discrete time points. A single time point (sample) is randomly drawn from each simulation after the first 10 time points (burn-in period used to secure the reach of stabilization). The selected samples together form a pool of 1000 simulated single cells, which are used to derive the overall distributions of all nine TFs expression. Please note all perturbation simulations mentioned below follow the same subsampling strategy as described here. Output is a 1000x9 matrix named as ‘matrix_wildtype’, or ‘matrix_wildtype_sm’, or ‘matrix_wildtype_ex’. 
 
 run down_PU1
