@@ -11,9 +11,9 @@ As explained in Supplementary text, exponents changed model refers to the settin
 
 To run simulations using in silico, or simplified, or exponents changed model:
 
-1.	Change Current Folder of MATLAB to ‘in silico model’, or ’Simplified model’, or ’Probabilities changed model’.
+First, change Current Folder of MATLAB to ‘in silico model’, or ’Simplified model’, or ’Probabilities changed model’.
 
-2.	Type in Command Window:
+Second, type in Command Window:
 
 run single_run
 
@@ -47,4 +47,4 @@ run up_Runx1_AE
 
 % simulate the leukemic scenario caused by AML-ETO expression. The level of Runx1 is fixed at the hypothetical maximum level 1, and at the same time all activating inputs of Runx1 are converted to inhibiting inputs in the model. Output is a 1000x9 matrix named as ‘matrix_up_Runx1_AE’, or ‘matrix_up_Runx1_AE_ex’. 
 
-3.	Any distribution fitting technique can then be applied to the outputs to produce desired plots. 
+Third, any distribution fitting technique can then be applied to the outputs to produce desired plots. 
