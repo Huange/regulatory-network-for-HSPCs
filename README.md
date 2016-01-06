@@ -1,4 +1,9 @@
-# regulatory-network-for-HSPCs
+# README
+The codes refer to a publication entitled "An integrated regulatory network of 9 haematopoietic transcription factors with experimentally validated binding sites reveals mechanisms of cell state stabilisation"
+
+ABSTRACT:
+Transcription factor (TF) networks determine cell type identity by establishing and maintaining lineage-specific expression profiles, yet reconstruction of mammalian regulatory network models has been hampered by a lack of comprehensive functional validation of regulatory interactions.  Here, we report comprehensive ChIP-Seq, transgenic and reporter gene experimental data that have allowed us to construct an experimentally validated regulatory network model for haematopoietic stem/progenitor cells (HSPCs).  Model simulation coupled with subsequent experimental validation using single cell expression profiling revealed potential mechanisms for cell state stabilisation, and also how a leukemogenic TF fusion protein perturbs key HSPC regulators. The approach presented here should help to improve our understanding of both normal physiological and disease processes.  
+
 The Matlab codes include three modules: 
 
 1.	In silico model
